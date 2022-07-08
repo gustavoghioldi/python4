@@ -27,3 +27,5 @@ car1 = Car("red", 2015, 180, 1000000)
 car1.set_color("blue", 100)
 
 print(f"color del auto: {car1.get_color()} y costo {car1.cost}")
+# esto da error
+# car1.__color 

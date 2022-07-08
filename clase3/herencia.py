@@ -38,7 +38,7 @@ barco = Acuatico(25, 2008)
 avion = Aereo(1000, 2017)
 
 
-auto.arrancar()
+auto.arrancar() #polimorfismo
 barco.arrancar()
 avion.arrancar()
 print("---------")
