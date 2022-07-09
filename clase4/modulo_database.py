@@ -30,6 +30,11 @@ class Product:
         else:
             raise Exception(f"No existe producto con id_ = {_id}")
 
+    def viewAll(self)->tuple:
+        cursor = self.conn.cursor()
+        cursor.execute(f"SELECT id, name, price FROM products")
+        return cursor.fetchall()
+
     def update(self):
         cursor = self.conn.cursor()
         cursor.execute("UPDATE products SET name=%s, price=%s WHERE id=%s", (self.name, self.price, self._id) )

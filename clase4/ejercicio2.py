@@ -8,7 +8,7 @@ producto.save()
 
 #### READ ######
 product = Product()
-product.load(26)
+product.load(30)
 print(product.__dict__)
 
 #### UPDATE ####
@@ -16,5 +16,8 @@ product.name = "Prueba3"
 product.update()
 
 ### DELETE ####
-product.delete()
+# product.delete()
+
+print(product.viewAll())
+
 
