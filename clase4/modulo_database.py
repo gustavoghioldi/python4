@@ -1,4 +1,3 @@
-import sqlite3
 import pymysql
 
 class Product:
