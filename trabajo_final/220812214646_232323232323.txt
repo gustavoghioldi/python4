@@ -1,0 +1,12 @@
+PEDIDO
+======
+
+cuit: 232323232323
+address: 232323232323
+
+Articulos:
+=========
+
+12.0 - remeras
+22.0 - pantalon
+33.0 - shot

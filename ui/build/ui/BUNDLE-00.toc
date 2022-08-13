@@ -1,0 +1,1 @@
+([('ui', '/Users/u631982/educacionit/python4/ui/dist/ui', 'EXECUTABLE')],)
